@@ -1,2 +1,4 @@
 # Pico-CTF
-Capture the flags
+
+Capture the flags with some picoCTF exercises
+
