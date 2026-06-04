@@ -1,0 +1,14 @@
+Using a Secure Shell (SSH) is going to be pretty important.
+
+Hints:
+
+1. https://linux.die.net/man/1/ssh
+2. You can try logging in 'as' someone with <user>@titan.picoctf.net
+3. How could you specify the port?
+4. Remember, passwords are hidden when typed into the shell
+
+On this exercise we need to launch the program on the website to get the
+username and the domain (@some-domain.net),also we get the port number when
+launching. After getting all the information needed we type in the command line
+ "ssh <username>@<domain> -p <port_number> and ask for a password, enter the 
+password provided when launching the program 
