@@ -1,0 +1,25 @@
+# Instructions for problem 1 of Section 3: wave the flag
+
+Hints:
+
+1. This program will only work in the webshell or another Linux computer.
+2. To get the file accessible in your shell, enter the following in the Terminal prompt: $ wget <URL here>, where the url can be found in the details section.
+3.Run this program by entering the following in the Terminal prompt: $ ./warm, but you'll first have to make it executable with $ chmod +x warm
+4. -h and --help are the most common arguments to give to programs to get more information from them!
+5. Not every program implements help features like -h and --help.
+
+This exercise is better to do it ins the webshell.picoctf.org 
+For this one copy the hyperlink provided and use the wget to get the file in your system,
+after getting the file, run the command:
+
+chmod +x warm	// to make it executable
+
+after executing the program it will tell you to put an extra flag (-h) when running
+
+like 
+
+./warm -h
+
+after pressing enter will give ypou the flag
+
+
