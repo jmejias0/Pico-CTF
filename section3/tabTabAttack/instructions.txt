@@ -1,0 +1,15 @@
+# Instructions for problem number 2 of section 3: Tab Tab Attack
+
+Using tabcomplete in the Terminal will add years to your life, esp. when dealing with long rambling directory structures and filenames.
+
+Hint:
+
+After unziping, this problem can be solved with 11 button-presses...(mostly Tab)...
+
+Copy the hyperlink, use wget to get the file (copy and paste the link provided),
+after getting the zip file, unzip it running the command 
+
+unzip *filename.zip*
+
+after getting the file name use the command cd and tabb as many times as the 
+directory allows you to do, then run the executable file to get the flag
