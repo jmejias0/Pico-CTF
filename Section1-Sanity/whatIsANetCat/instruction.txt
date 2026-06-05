@@ -5,3 +5,17 @@ Using netcat (nc) is going to be pretty important. Can you connect to fickle-tem
 Hint:
 
 1 Watch nc tutorial
+
+First install netcat on your OS, then watch any netcat tutorial to understand how
+netcat works
+
+type this command on the terminal to get the flag
+
+nc -v fickle-tempest.picoctf.net 65183
+
+DEscription of the command above:
+
+1. nc is the command to call netcat
+2. -v is a flag used for banner grabbing and service identification
+3. website or identity you waant to connect
+5. port number 
