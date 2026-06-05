@@ -1,0 +1,15 @@
+# Instructions for problem 1 of cyberChef: Mod26
+
+Hint:
+
+Cryptography can be easy, do you know what ROT13 is?
+
+there is a hyperlink, copy the link and do wget and paste the link after, like
+
+wget https://challenge-files.picoctf.net/c_wily_courier/390ad965b8e98943a33a68fdd4433081e6f67c5368a5205740fb1143045f9f1a/values.txt
+
+the you are going to get a filed called values.txt where they give you
+an encrypted message, open your favorite decypher calculator and decypher it
+that will give you the proper flag for this exercise
+
+
