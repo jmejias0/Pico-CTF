@@ -1,4 +1,4 @@
-# Instrictions for problem 4 of section 3: Strings it
+# Instrictions for problem 3 of section 3: Strings it
 
 Can you find the flag in file without running it?
 
