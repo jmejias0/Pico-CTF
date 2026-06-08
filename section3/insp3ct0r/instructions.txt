@@ -1,0 +1,22 @@
+# Instructions for problem 3 of section 3: insp3ct0r
+
+Kishor Balan tipped us off that the following code may need inspection:
+
+http://fickle-tempest.picoctf.net:64705
+
+Hint:
+
+1. How do you inspect web code on a browser?
+2. There's 3 parts
+
+Copy the hyperlink when you lach the program, use the command wget and paste the link provided.
+Then in a web browser copy the linke provided. To open the website background user ctrl+shift+i.
+For the first part of the flag go to the "inspector" tab  and open all the arrows available until 
+you find the first part of the flag, then for the second part check the tab "Style Editor", and
+finally for the last part go back to the tab "inspector" the open the arrow <head> and copy
+the JavaScript extension next to src "myjs.js" and the copy and paste it in the original link, like:
+
+ 
+http://fickle-tempest.picoctf.net:64705/myjs.js
+
+and there you ahver the last part
