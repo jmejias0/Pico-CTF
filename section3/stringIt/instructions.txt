@@ -1,0 +1,18 @@
+# Instrictions for problem 4 of section 3: Strings it
+
+Can you find the flag in file without running it?
+
+Hint:
+
+1. Strings
+
+Details:
+
+For this problem copy the link "file" and user wget to download the file in 
+the actual folder you are in. once you download the file called "strings" run
+the command >$ string string and will print a lot of data and it wont let you
+go back to find the flag, so run it again using grep, like
+
+>$ string strings | grep picoCTF{
+
+The command above will give you the flag
