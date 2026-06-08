@@ -1,0 +1,14 @@
+# Instrictions for problem 5 of section 3: wher are the robots
+
+Can you find the robots?
+
+http://fickle-tempest.picoctf.net:58465
+
+Hints:
+
+What part of the website could tell you where the creator doesn't want you to look?
+
+For this exercise, we need to use an extension called "robots.txt" after the 
+hyperlink provided, after searching for that it will gitve you another exension,
+once you get it, replace the /robots.txt in the link for that extension. That
+will give you the flag
