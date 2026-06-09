@@ -1,0 +1,17 @@
+# Instructions
+
+Python scripts are invoked kind of like programs in the Terminal...
+
+Can you run ende.py using password.txt to get flag.txt.en
+
+# Hints
+
+1. Get the Python script accessible in your shell by entering the following command
+in the Terminal prompt: $ wget followed by a link to the script. The link can be 
+copied from the details section.
+2. $ man python
+
+First use wget to download all the files give using the command prompt
+then inspect all the files using your favorite text editor. After cheking the files
+execute the python code with using python3 *file.py* *-d for decrypt* *fileForFlag.txt.en*
+then copy and paste the password that is in the password.txt file to get the flag
