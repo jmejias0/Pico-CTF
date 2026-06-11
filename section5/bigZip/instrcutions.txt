@@ -1,0 +1,10 @@
+# Instructions for exercise 2, problem set 5: Big Zip
+
+Download this image file and find the flag.
+
+https://artifacts.picoctf.net/c/505/big-zip-files.zip
+
+There is no hint for this exercise, after downloading the image with wget, we
+need to check the properties and information of the image. The first step is 
+unzip th zip file running the command unzip *file_name.zip*, after unzipping
+use grep -r *flag_name* to find the flag.
